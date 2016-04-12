@@ -1,10 +1,12 @@
 
 import discogs_client
 
-user_agent = "481FinalProject/1.0"
+user_agent = "MXPO/1.0"
 
-consumer_key = "qBUAEwezrIOsHKBuZXJR"
-consumer_secret = "ZEsJqtIuyoweiVbEZwOPOveIwiNtZQNA"
+token = "DfVagowbDawoqOLydLgUTbQqjEUUlYJXTptoUUvl"
 
-discogclient = discogs_client.Client(user_agent)
+d = discogs_client.Client(user_agent, user_token=token)
 
+results = d.search("Gorillaz")
+
+print results[0]
