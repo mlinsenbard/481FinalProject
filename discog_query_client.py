@@ -7,6 +7,6 @@ token = "DfVagowbDawoqOLydLgUTbQqjEUUlYJXTptoUUvl"
 
 d = discogs_client.Client(user_agent, user_token=token)
 
-results = d.search("Gorillaz")
+results = d.search("Gorillaz", type="release")
 
-print results[0]
+print results[0].labels[0].sublabels
