@@ -1,5 +1,5 @@
 # MXPO
-MXPO is a music suggestion knowledge engine. The engine will work by taking a user-entered song, artist, or album and generate suggestions for them based of many internal factors that are currently being determied. The finished product will be a [web UI hosted online]((http://linsenbard.com/mxpo/).
+MXPO is a music suggestion knowledge engine. The engine will work by taking a user-entered song, artist, or album and generate suggestions for them based of many internal factors that are currently being determied. The finished product will be a [web UI hosted online](http://linsenbard.com/mxpo/).
 
 # Setup
 ## Discogs API
