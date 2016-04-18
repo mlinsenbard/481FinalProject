@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>MovieLensCmap</dc:title>
+        <dc:creator>
+            <vcard:FN>Max Linsenbard</vcard:FN>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>Max Linsenbard</vcard:FN>
+            <vcard:EMAIL>mlinsenb@calpoly.edu</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>Cal Poly SLO</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>Max Linsenbard</vcard:FN>
+        </dcterms:rightsHolder>
+        <dcterms:created>2016-04-18T10:35:18-07:00</dcterms:created>
+        <dcterms:modified>2016-04-18T10:52:56-07:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.01.01</dc:publisher>
+        <dc:extent>5861 bytes</dc:extent>
+        <dc:source>cmap:1Q14K7M38-1303VKG-1:1Q14K7PFR-1WR4Z8F-Z:1Q35XXPGQ-2B141K2-1G0</dc:source>
+    </res-meta>
+    <map width="509" height="225">
+        <concept-list>
+            <concept id="1Q35WTFK4-1LPZYFR-HP" label="userId"/>
+            <concept id="1Q35WT0LT-1BQD8PX-H6" label="Users"/>
+            <concept id="1Q35X7H47-50FSM3-YF" label="Tags"/>
+            <concept id="1Q35X3QGN-1S67M3F-W1" label="movieId"/>
+            <concept id="1Q35XKRC8-1FT9J0H-16K" label="Title"/>
+            <concept id="1Q35XLRGZ-171X68J-18J" label="Genres"/>
+            <concept id="1Q35YX20V-14M2T23-1WH" label="IMDB"/>
+            <concept id="1Q35Z0LJX-1J9F514-1ZJ" label="TMDB"/>
+            <concept id="1Q35WRRW4-4CSR6H-GT" label="Ratings"/>
+            <concept id="1Q35X034J-1YP7TTT-RY" label="Movies"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1Q35XC7TQ-2591DN9-12N" label="add"/>
+            <linking-phrase id="1Q35Y44Y8-2WQLMG-1TD" label="are assigned"/>
+            <linking-phrase id="1Q35X2LP6-D136W2-TW" label="receive"/>
+            <linking-phrase id="1Q35WVVKG-WX5RZD-K8" label="created by"/>
+            <linking-phrase id="1Q35YX213-67LWQX-1WL" label="linked to"/>
+            <linking-phrase id="1Q35XLRH2-1L2FDZR-18M" label="defined by"/>
+            <linking-phrase id="1Q35XKRCD-9K3DJS-16N" label="have a"/>
+            <linking-phrase id="1Q35X3QGR-1DGG3BH-W4" label="have a"/>
+            <linking-phrase id="1Q35WTFK9-1BG234Z-HS" label="have a"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1Q35XKRCH-894MV9-16X" from-id="1Q35XKRCD-9K3DJS-16N" to-id="1Q35XKRC8-1FT9J0H-16K"/>
+            <connection id="1Q35XC7TT-CL054Q-12X" from-id="1Q35X7H47-50FSM3-YF" to-id="1Q35XC7TQ-2591DN9-12N"/>
+            <connection id="1Q35Z0NYH-11DYSR5-1ZS" from-id="1Q35YX213-67LWQX-1WL" to-id="1Q35Z0LJX-1J9F514-1ZJ"/>
+            <connection id="1Q35Y44YB-33SM9B-1TH" from-id="1Q35X034J-1YP7TTT-RY" to-id="1Q35Y44Y8-2WQLMG-1TD"/>
+            <connection id="1Q35Y44YC-14FY1LR-1TN" from-id="1Q35Y44Y8-2WQLMG-1TD" to-id="1Q35X7H47-50FSM3-YF"/>
+            <connection id="1Q35X2LPB-21GSBDK-V5" from-id="1Q35X2LP6-D136W2-TW" to-id="1Q35WRRW4-4CSR6H-GT"/>
+            <connection id="1Q35WVVKL-23VQN1B-KC" from-id="1Q35WT0LT-1BQD8PX-H6" to-id="1Q35WVVKG-WX5RZD-K8"/>
+            <connection id="1Q35X2LP9-14F7632-TZ" from-id="1Q35X034J-1YP7TTT-RY" to-id="1Q35X2LP6-D136W2-TW"/>
+            <connection id="1Q35XLRH4-25M5MP9-18Q" from-id="1Q35X034J-1YP7TTT-RY" to-id="1Q35XLRH2-1L2FDZR-18M"/>
+            <connection id="1Q35XKRCG-RFD5Z-16R" from-id="1Q35X034J-1YP7TTT-RY" to-id="1Q35XKRCD-9K3DJS-16N"/>
+            <connection id="1Q35YX216-17W4CD6-1WV" from-id="1Q35YX213-67LWQX-1WL" to-id="1Q35YX20V-14M2T23-1WH"/>
+            <connection id="1Q35X3QGV-19FJB9Y-W7" from-id="1Q35X034J-1YP7TTT-RY" to-id="1Q35X3QGR-1DGG3BH-W4"/>
+            <connection id="1Q35XC7TS-15PFY9Y-12R" from-id="1Q35WT0LT-1BQD8PX-H6" to-id="1Q35XC7TQ-2591DN9-12N"/>
+            <connection id="1Q35WTFKF-DWPTLW-J2" from-id="1Q35WTFK4-1LPZYFR-HP" to-id="1Q35WTFK9-1BG234Z-HS"/>
+            <connection id="1Q35XLRH4-12T24SK-18W" from-id="1Q35XLRH2-1L2FDZR-18M" to-id="1Q35XLRGZ-171X68J-18J"/>
+            <connection id="1Q35X3QGW-15B9W6M-WD" from-id="1Q35X3QGR-1DGG3BH-W4" to-id="1Q35X3QGN-1S67M3F-W1"/>
+            <connection id="1Q35YX215-29HN3FX-1WP" from-id="1Q35X034J-1YP7TTT-RY" to-id="1Q35YX213-67LWQX-1WL"/>
+            <connection id="1Q35WVVKM-VNPJRT-KJ" from-id="1Q35WRRW4-4CSR6H-GT" to-id="1Q35WVVKG-WX5RZD-K8"/>
+            <connection id="1Q35WTFKD-1CHWLKF-HW" from-id="1Q35WT0LT-1BQD8PX-H6" to-id="1Q35WTFK9-1BG234Z-HS"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1Q35WTFK4-1LPZYFR-HP" x="936" y="239" width="52" height="25" font-name="Abadi MT Condensed Extra Bold" font-style="plain"/>
+            <concept-appearance id="1Q35WT0LT-1BQD8PX-H6" x="808" y="239" width="48" height="25" font-name="Abadi MT Condensed Extra Bold" font-style="plain"/>
+            <concept-appearance id="1Q35X7H47-50FSM3-YF" x="936" y="179" width="44" height="27" font-name="Abadi MT Condensed Extra Bold" font-style="plain"/>
+            <concept-appearance id="1Q35X3QGN-1S67M3F-W1" x="525" y="42" width="62" height="25" font-name="Abadi MT Condensed Extra Bold" font-style="plain"/>
+            <concept-appearance id="1Q35XKRC8-1FT9J0H-16K" x="660" y="189" width="42" height="25" font-name="Abadi MT Condensed Extra Bold" font-style="plain"/>
+            <concept-appearance id="1Q35XLRGZ-171X68J-18J" x="594" y="134" width="57" height="25" font-name="Abadi MT Condensed Extra Bold" font-style="plain"/>
+            <concept-appearance id="1Q35YX20V-14M2T23-1WH" x="478" y="181" width="46" height="25" font-name="Abadi MT Condensed Extra Bold" font-style="plain"/>
+            <concept-appearance id="1Q35Z0LJX-1J9F514-1ZJ" x="536" y="180" width="50" height="25" font-name="Abadi MT Condensed Extra Bold" font-style="plain"/>
+            <concept-appearance id="1Q35WRRW4-4CSR6H-GT" x="717" y="134" width="59" height="27" font-name="Abadi MT Condensed Extra Bold" font-style="plain"/>
+            <concept-appearance id="1Q35X034J-1YP7TTT-RY" x="670" y="48" width="56" height="25" font-name="Abadi MT Condensed Extra Bold" font-style="plain"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1Q35XC7TQ-2591DN9-12N" x="864" y="208" width="24" height="11" font-name="Abadi MT Condensed Extra Bold"/>
+            <linking-phrase-appearance id="1Q35Y44Y8-2WQLMG-1TD" x="803" y="113" width="76" height="14" font-name="Abadi MT Condensed Extra Bold"/>
+            <linking-phrase-appearance id="1Q35X2LP6-D136W2-TW" x="714" y="87" width="43" height="11" font-name="Abadi MT Condensed Extra Bold"/>
+            <linking-phrase-appearance id="1Q35WVVKG-WX5RZD-K8" x="766" y="189" width="63" height="14" font-name="Abadi MT Condensed Extra Bold"/>
+            <linking-phrase-appearance id="1Q35YX213-67LWQX-1WL" x="514" y="90" width="53" height="11" font-name="Abadi MT Condensed Extra Bold"/>
+            <linking-phrase-appearance id="1Q35XLRH2-1L2FDZR-18M" x="595" y="88" width="63" height="14" font-name="Abadi MT Condensed Extra Bold"/>
+            <linking-phrase-appearance id="1Q35XKRCD-9K3DJS-16N" x="660" y="87" width="39" height="11" font-name="Abadi MT Condensed Extra Bold"/>
+            <linking-phrase-appearance id="1Q35X3QGR-1DGG3BH-W4" x="607" y="39" width="39" height="11" font-name="Abadi MT Condensed Extra Bold"/>
+            <linking-phrase-appearance id="1Q35WTFK9-1BG234Z-HS" x="870" y="239" width="39" height="11" font-name="Abadi MT Condensed Extra Bold"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1Q35XKRCH-894MV9-16X" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35XC7TT-CL054Q-12X" from-pos="top" to-pos="center"/>
+            <connection-appearance id="1Q35Z0NYH-11DYSR5-1ZS" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35Y44YB-33SM9B-1TH" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35Y44YC-14FY1LR-1TN" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35X2LPB-21GSBDK-V5" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35WVVKL-23VQN1B-KC" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35X2LP9-14F7632-TZ" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35XLRH4-25M5MP9-18Q" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35XKRCG-RFD5Z-16R" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35YX216-17W4CD6-1WV" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35X3QGV-19FJB9Y-W7" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35XC7TS-15PFY9Y-12R" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35WTFKF-DWPTLW-J2" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35XLRH4-12T24SK-18W" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35X3QGW-15B9W6M-WD" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35YX215-29HN3FX-1WP" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35WVVKM-VNPJRT-KJ" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1Q35WTFKD-1CHWLKF-HW" from-pos="center" to-pos="center"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <concept-style font-name="Abadi MT Condensed Extra Bold" font-style="plain"/>
+                <linking-phrase-style font-name="Abadi MT Condensed Extra Bold"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="1Q35XXPGQ-2B141K2-1G0">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>
