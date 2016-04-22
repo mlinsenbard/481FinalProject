@@ -1,0 +1,29 @@
+I'm thinking of using the apriori datamining algorithm for this. Seems like it might be a good thing to use for this.
+Here's a link to a library to download:
+https://pypi.python.org/pypi/apriori/1.0.0
+
+A quick rundown of how it works:
+
+Say you have a dataset with 10 elements...
+
+
+id  title                       categories                  rating
+1   lion king         adventure, comedy, drama, musical     5.0
+2   scorpion king     action, adventure                     3.5
+3   pulp fiction      action, psycological                  5.0
+4   godzilla          monster, horror                       3.0
+5   the prestige      thriller, psycological                4.5
+6   swordfish         thriller, psycological, drama         4.0
+7   se7en             action, psycological                  4.0
+8   Rocky             action, drama                         4.0
+9   A Clockwork Orange  drama, psycological                 4.0
+10  The Waterboy    comedy, drama                           3.5
+
+
+Say you watched Se7en. To get a recommendation, it will take every user that has watched Se7en, and find which other movie
+is the most watched among that group. For example, say everyone that watched Se7en also watched pulp fiction. It will recommend
+pulp fiction to our user that watched Se7en. Obviously not everyone that has watched Se7en has watched pulp fiction, so
+we manually set in thresholds to grab say the top 5 movies. This could be our popularity metric.
+
+If we want, we can modify the code to match only movies in the same categories and restrict it that way. We can also make it
+only include movies with ratings above a certain threshold.
