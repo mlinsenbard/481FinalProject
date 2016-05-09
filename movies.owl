@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/martel/ontologies/2016/4/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/martel/ontologies/2016/4/untitled-ontology-4">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Dark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documentery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Educational"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Venue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thriller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comedy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Film-Noir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Western"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mystery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Light-Hearted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IMAX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Children"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fantasy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sci-Fi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horror"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#War"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adventure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Romance"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adventure"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animation"/>
+        <Class IRI="#Light-Hearted"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Children"/>
+        <Class IRI="#Light-Hearted"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comedy"/>
+        <Class IRI="#Dark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comedy"/>
+        <Class IRI="#Light-Hearted"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crime"/>
+        <Class IRI="#Dark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dark"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documentery"/>
+        <Class IRI="#Educational"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drama"/>
+        <Class IRI="#Dark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Educational"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entertainment"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fantasy"/>
+        <Class IRI="#Dark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Film-Noir"/>
+        <Class IRI="#Dark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genre"/>
+        <Class IRI="#Movie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horror"/>
+        <Class IRI="#Dark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IMAX"/>
+        <Class IRI="#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light-Hearted"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musical"/>
+        <Class IRI="#Light-Hearted"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mystery"/>
+        <Class IRI="#Dark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Romance"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sci-Fi"/>
+        <Class IRI="#Dark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thriller"/>
+        <Class IRI="#Dark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Venue"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#War"/>
+        <Class IRI="#Dark"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Western"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
